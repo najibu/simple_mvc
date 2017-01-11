@@ -1,16 +1,16 @@
 <?php require('views/partials/head.php'); ?>
 
-<h1>Home Page</h1>
+<h1>All Users</h1>
 
-<!-- <?php foreach ($users as $user) : ?>
+<?php foreach ($users as $user) : ?>
   <li> <?= $user->name ?> </li>
 <? endforeach; ?>
 
   <h1>Submit your form</h1>
 
-  <form action="/names" method="POST">
+  <form action="/users" method="POST">
     <input name="name"></input>
     <button type="submit">Submit</button>
-  </form> -->
+  </form>
   
 <?php require('views/partials/footer.php'); ?>
