@@ -1,5 +1,6 @@
 <?php require('views/partials/head.php'); ?>
 
-  <h1>Our Culture</h1>
+<h1>Home Page</h1>
 
+  
 <?php require('views/partials/footer.php'); ?>
